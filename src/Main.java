@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        TestExercise testExercise = new TestExercise("Add two numbers");
+        testExercise.addTwoNumbers(3, 6);
+        testExercise.printResult();
     }
 }
