@@ -15,7 +15,7 @@ public abstract class ExerciseTemplate<T> {
 	}
 
 	public void printResult(){
-		System.out.println("Exercise " + id + " result: " + this.result);
+		System.out.println("Exercise " + id + ")" + "\n" + "Description: " + getDescription() + "\nResult: " + getResult());
 	}
 
 	public int getId() {
