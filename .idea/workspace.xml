@@ -125,6 +125,8 @@
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestExerciseTest.testAddTwoNumbers" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestExerciseTest.testAddTwoNumbers" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +211,7 @@
     <MESSAGE value="Hello world" />
     <MESSAGE value="Print result logic added&#10;&#10;Draft, will change later" />
     <MESSAGE value="Added template exercise class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added template exercise class" />
+    <MESSAGE value="Change print result formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change print result formatting" />
   </component>
 </project>

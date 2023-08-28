@@ -15,7 +15,12 @@ public abstract class ExerciseTemplate<T> {
 	}
 
 	public void printResult(){
-		System.out.println("Exercise " + id + ")" + "\n" + "Description: " + getDescription() + "\nResult: " + getResult());
+		String output = String.format("""
+        Exercise %d)
+        Description %s
+        Result %s
+		""", id, getDescription(), getResult());
+		System.out.println(output);
 	}
 
 	public int getId() {
